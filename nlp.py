@@ -7,7 +7,7 @@ from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
 from nltk import FreqDist, classify, NaiveBayesClassifier
 
-df = pd.read_excel(r'C:\Users\Asus\Desktop\Intellisense\Online_HRD_30052020.xlsx')
+df = pd.read_excel(r'Online_HRD_30052020.xlsx')
 pd.set_option('display.max_columns', None)
 df = df[df.Language == 'English']
 
